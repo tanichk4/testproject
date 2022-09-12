@@ -19,19 +19,6 @@ body{
     align-items: center;
 }
 
-.flex_small{
-    display: flex;
-    align-items: center;
-}
-
-.compass{
-    margin-bottom: 8px;
-}
-
-.house{
-    margin-bottom: 21px;
-}
-
 .logo img{
     margin-right: 15px;
 }
@@ -83,18 +70,6 @@ body{
 
 }
 
-.header_button-white{
-    width: 160px;
-    height: 48px;
-    border: none;
-    background: #FFFFFF;
-    border-radius: 2px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 13px;
-    color: #3040C4;
-}
-
 .header_button:hover{
     cursor: pointer;
     transition: 500ms;
@@ -125,22 +100,11 @@ body{
 
 .intro{
     background-color: #F4F5F7;
-}
-
-.intro1{
-    background-color: #F3C6BD;
+    padding: 77px 0;
 }
 
 .intro-1, .intro-2{
     max-width: 555px;
-}
-
-.intro-1{
-    margin: 77px 29px 76px 130px;
-}
-
-.intro-2{
-    margin: 77px 131px 76px 29px;
 }
 
 .intro-1 h3, .intro-2 h3{
@@ -154,101 +118,4 @@ body{
     font-size: 22px;
     line-height: 32px;
     color: #2B292D;
-}
-
-.preview{
-    margin-top: 100px;
-}
-
-.header_small{
-    font-size: 22px;
-    line-height: 34px;
-    color: #009B4D;
-    font-weight: bold;
-    margin-bottom: 24px;
-}
-
-.caption{
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #2B292D;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.p{
-    font-size: 24px;
-    line-height: 34px;
-    color: #2B292D;
-    margin-bottom: 42px;
-}
-
-.preview_text{
-    max-width: 460px;
-    position: relative;
-}
-
-.heading_small{
-    font-size: 22px;
-    line-height: 26px;
-    color: #3142C6;
-    font-weight: bold;
-    margin-left: 15px;
-}
-
-.h3_small{
-    font-weight: bold;
-    margin-left: 15px;
-    font-size: 22px;
-    line-height: 26px;
-    color: #2B292D;
-}
-
-.br{
-    height: 3px; background-color: #3142C6;
-    margin-bottom: 17px;
-}
-
-.text_small{
-    font-size: 18px;
-    line-height: 26px;
-    color: #2B292D;
-    margin-bottom: 17px;
-}
-
-.ouch{
-    position: absolute;
-    top: 930px;
-}
-
-.getstarted{
-    padding-bottom: 77px;
-}
-
-/* .getstarted_text{
-
-} */
-
-.getstarted_png{
-    z-index: 0;
-}
-
-.flex_header{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.flex_column{
-    display: flex;
-    flex-direction: column;
-}
-
-.getstarted_h4{
-    font-size: 80px;
-    line-height: 78px;
-    letter-spacing: -0.5px;
-    color: #2B292D;
-    font-weight: bold;
 }
